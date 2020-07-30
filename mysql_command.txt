@@ -1,0 +1,7 @@
+create database project_form;
+
+use project_form;
+
+create table formdata(name varchar(100),company varchar(100),email varchar(100),budget varchar(100),details varchar(500),timeframe varchar(100),pro_type varchar(100));
+
+Write your mysql database user and password in routes/post.js file 
